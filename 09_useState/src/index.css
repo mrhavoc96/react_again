@@ -1,0 +1,44 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body{
+  background-color: rgb(119, 162, 151);
+  padding: 20px;
+  height: 100%;
+  width: 100%;
+}
+
+
+button{
+    background-color: rgb(33, 74, 60);
+    color: white;
+    font-size: 23px;
+    border: none;
+    border-radius: 20px;
+    padding: 15px 25px;
+    margin: 20px;
+}
+
+.example{
+    margin-bottom: 30px;
+}
+
+.counter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.counter h1{
+    padding: 12px 50px;
+    border-radius: 30px;
+    font-size: 100px;
+    background-color: rgb(65, 105, 94);
+    color: white;
+}
